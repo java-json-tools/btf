@@ -1,3 +1,8 @@
+[![License LGPLv3][LGPLv3 badge]][LGPLv3]
+[![License ASL 2.0][ASL 2.0 badge]][ASL 2.0]
+[![Build Status][Travis badge]][Travis]
+[![Maven Central][Maven Central badge]][Maven]
+
 ## Read me first
 
 This project, as of version 1.1, is licensed under both LGPLv3 and ASL 2.0. See
@@ -24,7 +29,7 @@ The current version is **1.2**.
 
 ```xml
 <dependency>
-    <groupId>com.github.fge</groupId>
+    <groupId>com.github.java-json-tools</groupId>
     <artifactId>btf</artifactId>
     <version>your-version-here</version>
 </dependency>
@@ -81,3 +86,11 @@ In summary, the free/thaw pattern is a "reversible" builder pattern -- that is, 
 can create, from a "frozen", immutable instance, an equivalent builder instance bearing the same
 characteristics.
 
+[LGPLv3 badge]: https://img.shields.io/:license-LGPLv3-blue.svg
+[LGPLv3]: http://www.gnu.org/licenses/lgpl-3.0.html
+[ASL 2.0 badge]: https://img.shields.io/:license-Apache%202.0-blue.svg
+[ASL 2.0]: http://www.apache.org/licenses/LICENSE-2.0.html
+[Travis Badge]: https://api.travis-ci.org/java-json-tools/btf.svg?branch=master
+[Travis]: https://travis-ci.org/java-json-tools/btf
+[Maven Central badge]: https://img.shields.io/maven-central/v/com.github.java-json-tools/btf.svg
+[Maven]: https://search.maven.org/artifact/com.github.java-json-tools/btf
