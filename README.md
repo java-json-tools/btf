@@ -35,6 +35,8 @@ The current version is **1.2**.
 </dependency>
 ```
 
+Versions before 1.3 are available at `groupId` `com.github.fge`.
+
 ## Source
 
 ### Builder
