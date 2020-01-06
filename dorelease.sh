@@ -1,4 +1,4 @@
 #!/bin/bash
 
-./gradlew clean test uploadArchives
+./gradlew --refresh-dependencies clean test uploadArchives
 

@@ -23,7 +23,7 @@ included in this README.
 
 ## Current version
 
-The current version is **1.2**.
+The current version is **1.3**.
 
 ## Maven artifact
 
